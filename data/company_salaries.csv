@@ -1,0 +1,60 @@
+position,level,minimum_salary,midpoint_salary,maximum_salary
+Accountant,Junior,55000,62500,70000
+Accountant,Staff,70000,80000,90000
+Accountant,Senior,90000,105000,120000
+Software Engineer,Junior,85000,97500,110000
+Software Engineer,Staff,110000,130000,150000
+Software Engineer,Senior,140000,160000,180000
+Software Engineer,Lead,165000,187500,210000
+Software Engineer,Principal,190000,220000,250000
+Frontend Software Engineer,Junior,80000,92500,105000
+Frontend Software Engineer,Staff,105000,122500,140000
+Frontend Software Engineer,Senior,130000,150000,170000
+Backend Software Engineer,Junior,85000,100000,115000
+Backend Software Engineer,Staff,115000,135000,155000
+Backend Software Engineer,Senior,145000,167500,190000
+Full Stack Software Engineer,Junior,85000,97500,110000
+Full Stack Software Engineer,Staff,110000,130000,150000
+Full Stack Software Engineer,Senior,140000,160000,180000
+DevOps Engineer,Junior,90000,102500,115000
+DevOps Engineer,Staff,115000,135000,155000
+DevOps Engineer,Senior,145000,167500,190000
+Site Reliability Engineer,Staff,120000,140000,160000
+Site Reliability Engineer,Senior,150000,175000,200000
+Cloud Engineer,Junior,90000,105000,120000
+Cloud Engineer,Staff,115000,135000,155000
+Cloud Engineer,Senior,145000,165000,185000
+Data Engineer,Junior,90000,105000,120000
+Data Engineer,Staff,115000,135000,155000
+Data Engineer,Senior,145000,167500,190000
+Machine Learning Engineer,Staff,125000,147500,170000
+Machine Learning Engineer,Senior,155000,180000,205000
+AI Engineer,Staff,130000,152500,175000
+AI Engineer,Senior,160000,185000,210000
+QA Automation Engineer,Junior,75000,87500,100000
+QA Automation Engineer,Staff,100000,117500,135000
+QA Automation Engineer,Senior,125000,145000,165000
+Engineering Manager,Manager,155000,180000,205000
+Director of Engineering,Director,190000,220000,250000
+Product Manager,Staff,105000,125000,145000
+Senior Product Manager,Senior,135000,157500,180000
+Business Analyst,Staff,75000,87500,100000
+Financial Analyst,Staff,70000,82500,95000
+Senior Financial Analyst,Senior,90000,105000,120000
+HR Generalist,Staff,65000,75000,85000
+HR Manager,Manager,90000,105000,120000
+Recruiter,Staff,65000,77500,90000
+Senior Recruiter,Senior,85000,100000,115000
+Pilot,First Officer,100000,135000,170000
+Pilot,Captain,160000,210000,260000
+Flight Attendant,Staff,45000,55000,65000
+Aircraft Maintenance Technician,Staff,60000,72500,85000
+Senior Aircraft Maintenance Technician,Senior,80000,95000,110000
+Operations Coordinator,Staff,50000,60000,70000
+Operations Manager,Manager,85000,100000,115000
+Customer Service Representative,Staff,40000,47500,55000
+Customer Service Manager,Manager,65000,77500,90000
+Cybersecurity Analyst,Staff,100000,120000,140000
+Senior Cybersecurity Engineer,Senior,145000,170000,195000
+Database Administrator,Staff,100000,120000,140000
+Senior Database Administrator,Senior,130000,150000,170000

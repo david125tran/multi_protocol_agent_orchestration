@@ -1,0 +1,306 @@
+{
+  "applicants": [
+    {
+      "applicant_id": "APP-1001",
+      "name": "Jane Smith",
+      "target_role": "Senior Software Engineer",
+      "years_experience": 8.6,
+      "technical_background": {
+        "primary_languages": [
+          "Python",
+          "Go",
+          "TypeScript"
+        ],
+        "frameworks": [
+          "FastAPI",
+          "Gin",
+          "React"
+        ],
+        "cloud": [
+          "AWS",
+          "Azure"
+        ],
+        "databases": [
+          "PostgreSQL",
+          "Redis",
+          "DynamoDB"
+        ],
+        "specialties": [
+          "Python backend engineering",
+          "REST APIs",
+          "distributed systems",
+          "high-scale backend services",
+          "observability",
+          "LLM integrations",
+          "system design",
+          "event-driven architecture"
+        ]
+      },
+      "employment_history": [
+        {
+          "company": "Blue Ridge Systems",
+          "title": "Software Engineer",
+          "years": 2.3
+        },
+        {
+          "company": "Northstar Analytics",
+          "title": "Senior Software Engineer",
+          "years": 3.1
+        },
+        {
+          "company": "Summit Cloud Technologies",
+          "title": "Senior Backend Engineer",
+          "years": 3.2
+        }
+      ],
+      "screening": {
+        "background_check": {
+          "status": "FAIL",
+          "criminal_check": "FAIL",
+          "identity_verification": "FAILED",
+          "employment_verification": "FAILED",
+          "education_verification": "FAILED",
+          "notes": "Multiple major discrepancies were identified. Identity information could not be verified, several claimed employers reported no matching employment record, and the claimed university reported no matching degree. Additional mock screening records contained serious disqualifying findings."
+        },
+        "drug_test": {
+          "status": "FAIL",
+          "panel": "5-panel",
+          "notes": "Failed multiple portions of the screening panel."
+        }
+      }
+    },
+    {
+      "applicant_id": "APP-1002",
+      "name": "Michael Chen",
+      "target_role": "Senior Software Engineer",
+      "years_experience": 7.1,
+      "technical_background": {
+        "primary_languages": [
+          "Python",
+          "Go",
+          "Java"
+        ],
+        "frameworks": [
+          "FastAPI",
+          "Gin",
+          "Spring Boot"
+        ],
+        "cloud": [
+          "AWS"
+        ],
+        "databases": [
+          "PostgreSQL",
+          "Redis"
+        ],
+        "specialties": [
+          "Python backend engineering",
+          "REST APIs",
+          "distributed systems",
+          "cloud services",
+          "observability",
+          "microservices",
+          "event-driven systems"
+        ]
+      },
+      "employment_history": [
+        {
+          "company": "VectorSoft",
+          "title": "Backend Engineer",
+          "years": 2.8
+        },
+        {
+          "company": "AeroLogic Technologies",
+          "title": "Software Engineer II",
+          "years": 2.4
+        },
+        {
+          "company": "Pioneer Cloud Systems",
+          "title": "Senior Software Engineer",
+          "years": 1.9
+        }
+      ],
+      "screening": {
+        "background_check": {
+          "status": "PASS",
+          "criminal_check": "CLEAR",
+          "identity_verification": "VERIFIED",
+          "employment_verification": "VERIFIED",
+          "education_verification": "VERIFIED",
+          "notes": "No issues identified."
+        },
+        "drug_test": {
+          "status": "PASS",
+          "panel": "5-panel",
+          "notes": "Negative result."
+        }
+      }
+    },
+    {
+      "applicant_id": "APP-1003",
+      "name": "Sarah Patel",
+      "target_role": "Senior Software Engineer",
+      "years_experience": 5.1,
+      "technical_background": {
+        "primary_languages": [
+          "Python",
+          "Go"
+        ],
+        "frameworks": [
+          "FastAPI",
+          "Gin"
+        ],
+        "cloud": [
+          "GCP",
+          "AWS"
+        ],
+        "databases": [
+          "PostgreSQL",
+          "BigQuery"
+        ],
+        "specialties": [
+          "data services",
+          "API development",
+          "observability"
+        ]
+      },
+      "employment_history": [
+        {
+          "company": "CloudPeak Labs",
+          "title": "Software Engineer",
+          "years": 2.0
+        },
+        {
+          "company": "Nimbus Data",
+          "title": "Backend Software Engineer",
+          "years": 3.1
+        }
+      ],
+      "screening": {
+        "background_check": {
+          "status": "REVIEW",
+          "criminal_check": "CLEAR",
+          "identity_verification": "VERIFIED",
+          "employment_verification": "PARTIAL",
+          "education_verification": "VERIFIED",
+          "notes": "One former employer could not be reached for independent verification."
+        },
+        "drug_test": {
+          "status": "PASS",
+          "panel": "5-panel",
+          "notes": "Negative result."
+        }
+      }
+    },
+    {
+      "applicant_id": "APP-1004",
+      "name": "Daniel Brooks",
+      "target_role": "Senior Software Engineer",
+      "years_experience": 5.7,
+      "technical_background": {
+        "primary_languages": [
+          "C#",
+          "TypeScript"
+        ],
+        "frameworks": [
+          ".NET",
+          "React"
+        ],
+        "cloud": [
+          "Azure"
+        ],
+        "databases": [
+          "SQL Server",
+          "PostgreSQL"
+        ],
+        "specialties": [
+          "enterprise applications",
+          "API design",
+          "CI/CD"
+        ]
+      },
+      "employment_history": [
+        {
+          "company": "Pioneer Software Group",
+          "title": "Application Developer",
+          "years": 2.5
+        },
+        {
+          "company": "Summit Enterprise Systems",
+          "title": "Software Engineer II",
+          "years": 3.2
+        }
+      ],
+      "screening": {
+        "background_check": {
+          "status": "PASS",
+          "criminal_check": "CLEAR",
+          "identity_verification": "VERIFIED",
+          "employment_verification": "VERIFIED",
+          "education_verification": "VERIFIED",
+          "notes": "No issues identified."
+        },
+        "drug_test": {
+          "status": "PASS",
+          "panel": "5-panel",
+          "notes": "Negative result."
+        }
+      }
+    },
+    {
+      "applicant_id": "APP-1005",
+      "name": "Emily Rodriguez",
+      "target_role": "Senior Software Engineer",
+      "years_experience": 5.6,
+      "technical_background": {
+        "primary_languages": [
+          "Python",
+          "JavaScript"
+        ],
+        "frameworks": [
+          "Django",
+          "FastAPI",
+          "Vue"
+        ],
+        "cloud": [
+          "AWS"
+        ],
+        "databases": [
+          "PostgreSQL",
+          "MongoDB"
+        ],
+        "specialties": [
+          "full-stack development",
+          "backend APIs",
+          "authentication systems"
+        ]
+      },
+      "employment_history": [
+        {
+          "company": "CedarWorks",
+          "title": "Full Stack Developer",
+          "years": 2.4
+        },
+        {
+          "company": "Atlas Digital",
+          "title": "Software Engineer",
+          "years": 3.2
+        }
+      ],
+      "screening": {
+        "background_check": {
+          "status": "PASS",
+          "criminal_check": "CLEAR",
+          "identity_verification": "VERIFIED",
+          "employment_verification": "VERIFIED",
+          "education_verification": "VERIFIED",
+          "notes": "No issues identified."
+        },
+        "drug_test": {
+          "status": "PASS",
+          "panel": "5-panel",
+          "notes": "Negative result."
+        }
+      }
+    }
+  ]
+}

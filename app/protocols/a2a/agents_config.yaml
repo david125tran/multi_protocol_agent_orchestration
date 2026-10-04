@@ -1,0 +1,211 @@
+# app/protocols/a2a/agents_config.yaml
+
+agents:
+
+  hr:
+    pipeline: "hr"
+
+    skill:
+      id: "hiring_offer_guidance"
+      name: "Hiring and Offer Guidance"
+      description: >
+        Reviews candidate hiring information and approved compensation data
+        to determine whether a candidate is ready for an offer and to recommend
+        an appropriate salary within the approved range.
+
+      tags:
+        - "hr"
+        - "hiring"
+        - "offer"
+        - "compensation"
+        - "candidate"
+
+      examples:
+        - "Review APP-1002 for offer readiness."
+        - "Recommend an offer using this approved salary range."
+        - "Can this candidate proceed to an offer?"
+
+      input_modes:
+        - "text"
+
+      output_modes:
+        - "text"
+
+    agent_card:
+      name: "HR Agent"
+      description: >
+        Human resources agent responsible for reviewing hiring readiness and
+        recommending candidate offers using approved compensation information.
+
+      version: "1.0.0"
+
+      capabilities:
+        streaming: false
+
+      default_input_modes:
+        - "text"
+
+      default_output_modes:
+        - "text"
+
+      supported_interfaces:
+        - protocol_binding: "JSONRPC"
+          protocol_version: "1.0"
+          url: "http://127.0.0.1:8000/a2a/hr/jsonrpc"
+
+
+  employee_background:
+    pipeline: "employee_background"
+
+    skill:
+      id: "employee_background_check"
+      name: "Employee Background Verification"
+      description: >
+        Retrieves mock pre-employment screening information for an applicant
+        and returns the complete background-check and drug-test records with
+        a concise PASS, FAIL, or REVIEW summary.
+
+      tags:
+        - "background_check"
+        - "screening"
+        - "candidate"
+        - "applicant"
+        - "hiring"
+
+      examples:
+        - "Check the background screening for APP-1001."
+        - "Did APP-1002 pass the required screening?"
+        - "Review the screening result for APP-1003."
+
+      input_modes:
+        - "text"
+
+      output_modes:
+        - "text"
+
+    agent_card:
+      name: "Employee Background Agent"
+      description: >
+        Agent responsible for retrieving mock applicant pre-employment
+        screening records, including complete background-check and drug-test
+        details, with a concise PASS, FAIL, or REVIEW summary.
+
+      version: "1.0.0"
+
+      capabilities:
+        streaming: false
+
+      default_input_modes:
+        - "text"
+
+      default_output_modes:
+        - "text"
+
+      supported_interfaces:
+        - protocol_binding: "JSONRPC"
+          protocol_version: "1.0"
+          url: "http://127.0.0.1:8000/a2a/employee_background/jsonrpc"
+
+
+  staff_accountant:
+    pipeline: "staff_accountant"
+
+    skill:
+      id: "compensation_lookup"
+      name: "Compensation Data Lookup"
+      description: >
+        Retrieves approved internal salary ranges for company positions and
+        levels using David Airlines compensation data.
+
+      tags:
+        - "accounting"
+        - "compensation"
+        - "salary"
+        - "hiring"
+        - "pay_range"
+
+      examples:
+        - "What is the salary range for a Senior Software Engineer?"
+        - "Provide the approved compensation band for this position."
+        - "What are the minimum, midpoint, and maximum salaries for this role?"
+
+      input_modes:
+        - "text"
+
+      output_modes:
+        - "text"
+
+    agent_card:
+      name: "Staff Accountant Agent"
+      description: >
+        Accounting agent responsible for retrieving approved internal
+        compensation ranges for company positions and levels.
+
+      version: "1.0.0"
+
+      capabilities:
+        streaming: false
+
+      default_input_modes:
+        - "text"
+
+      default_output_modes:
+        - "text"
+
+      supported_interfaces:
+        - protocol_binding: "JSONRPC"
+          protocol_version: "1.0"
+          url: "http://127.0.0.1:8000/a2a/staff_accountant/jsonrpc"
+
+
+  interview:
+    pipeline: "interview"
+
+    skill:
+      id: "candidate_interview"
+      name: "Candidate Interview"
+      description: >
+        Simulates a job interview for a mock applicant using the applicant's
+        stored professional background, the supplied job description, and the
+        interview questions provided by the caller.
+
+      tags:
+        - "interview"
+        - "candidate"
+        - "hiring"
+        - "job_description"
+        - "evaluation"
+
+      examples:
+        - "Interview APP-1001 for a Senior Software Engineer role."
+        - "Evaluate APP-1002 for Python backend and distributed systems experience."
+        - "Ask APP-1003 these interview questions for the supplied job description."
+
+      input_modes:
+        - "text"
+
+      output_modes:
+        - "text"
+
+    agent_card:
+      name: "Interview Agent"
+      description: >
+        Agent that simulates candidate interviews using stored applicant
+        experience and evaluates job fit based on the supplied role and
+        interview questions.
+
+      version: "1.0.0"
+
+      capabilities:
+        streaming: false
+
+      default_input_modes:
+        - "text"
+
+      default_output_modes:
+        - "text"
+
+      supported_interfaces:
+        - protocol_binding: "JSONRPC"
+          protocol_version: "1.0"
+          url: "http://127.0.0.1:8000/a2a/interview/jsonrpc"

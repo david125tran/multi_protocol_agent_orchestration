@@ -1,0 +1,17 @@
+# Web server and API models
+fastapi==0.123.0
+uvicorn==0.38.0
+pydantic==2.12.5
+
+# Agent protocols and workflow orchestration
+a2a-sdk==1.2.1
+mcp==1.25.0
+langgraph==1.0.4
+
+# Model provider and HTTP clients
+openai==2.9.0
+httpx==0.28.1
+
+# Configuration and agent metadata
+python-dotenv==1.2.1
+PyYAML==6.0.3
